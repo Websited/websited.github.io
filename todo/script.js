@@ -1,4 +1,4 @@
-const todos = new TodoItemCollection();
-TodoApp.localStorageRead();
+const todos = todoItemCollection();
+TodoApp.dataRead('todos');
 
 runSuites();
