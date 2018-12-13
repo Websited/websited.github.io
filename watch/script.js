@@ -107,13 +107,13 @@ const runClock = function() {
 }
 
 const setDate = async function() {
-  // let fetched = await fetch('http://worldclockapi.com/api/json/cet/now');
-  // let fetchedJson = await fetched.json();
+  let fetched = await fetch('http://worldclockapi.com/api/json/cet/now');
+  let fetchedJson = await fetched.json();
   date = {
-    hours: new Date().getHours() % 12 || 12, // fetchedJson.currentDateTime
-    minutes: new Date().getMinutes() + 2, // fetchedJson.currentDateTime
-    am: new Date().getHours() <= 12 ? true : false, // fetchedJson.currentDateTime
-    pastHalf: new Date().getMinutes() > 30 ? true : false // fetchedJson.currentDateTime
+    hours: new Date(fetchedJson.currentDateTime).getHours() % 12 || 12,
+    minutes: new Date(fetchedJson.currentDateTime).getMinutes() + 2,
+    am: new Date(fetchedJson.currentDateTime).getHours() <= 12 ? true : false,
+    pastHalf: new Date(fetchedJson.currentDateTime).getMinutes() > 30 ? true : false
   };
   runClock();
 };
