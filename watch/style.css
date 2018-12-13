@@ -1,0 +1,80 @@
+body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
+        url(./5be220d49a0ceSynthwave-Neon-80s-Background-4K.jpg);
+    background-position: center center;
+    background-position: cover;
+    background-attachment: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 98vh;
+}
+
+body > * {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+p {
+    font-size: 30px;
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+span {
+    margin: 0;
+    padding: 0;
+    color: #2c1e31;
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.active, .always-active {
+    color: #ea2b70;
+    text-shadow: 0 0 15px #ea2b70;
+}
+
+.clock-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    text-align: justify;
+    padding: 40px 40px 20px 40px;
+    background: #0b0b0c;
+    border: 1px solid #ea2b70;
+}
+
+@media screen and (max-width: 425px) {
+
+.clock-text {
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+    p {
+        font-size: 20px;
+        line-height: 16px;
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+        width: 100%;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
