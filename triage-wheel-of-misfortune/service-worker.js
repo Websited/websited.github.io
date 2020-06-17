@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/triage-wheel-of-misfortune/precache-manifest.ebb5c7d253283c7e355307fa44eaf718.js"
+  "/triage-wheel-of-misfortune/precache-manifest.1de91fa860af9f34947ecbb681577e8e.js"
 );
 
 self.addEventListener('message', (event) => {

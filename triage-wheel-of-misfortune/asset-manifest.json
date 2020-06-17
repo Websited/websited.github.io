@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/triage-wheel-of-misfortune/static/css/main.df8a443a.chunk.css",
+    "main.css": "/triage-wheel-of-misfortune/static/css/main.65992f16.chunk.css",
     "main.js": "/triage-wheel-of-misfortune/static/js/main.425b9248.chunk.js",
     "main.js.map": "/triage-wheel-of-misfortune/static/js/main.425b9248.chunk.js.map",
     "runtime-main.js": "/triage-wheel-of-misfortune/static/js/runtime-main.38a167ce.js",
@@ -8,15 +8,15 @@
     "static/js/2.c9bfad0c.chunk.js": "/triage-wheel-of-misfortune/static/js/2.c9bfad0c.chunk.js",
     "static/js/2.c9bfad0c.chunk.js.map": "/triage-wheel-of-misfortune/static/js/2.c9bfad0c.chunk.js.map",
     "index.html": "/triage-wheel-of-misfortune/index.html",
-    "precache-manifest.ebb5c7d253283c7e355307fa44eaf718.js": "/triage-wheel-of-misfortune/precache-manifest.ebb5c7d253283c7e355307fa44eaf718.js",
+    "precache-manifest.1de91fa860af9f34947ecbb681577e8e.js": "/triage-wheel-of-misfortune/precache-manifest.1de91fa860af9f34947ecbb681577e8e.js",
     "service-worker.js": "/triage-wheel-of-misfortune/service-worker.js",
-    "static/css/main.df8a443a.chunk.css.map": "/triage-wheel-of-misfortune/static/css/main.df8a443a.chunk.css.map",
+    "static/css/main.65992f16.chunk.css.map": "/triage-wheel-of-misfortune/static/css/main.65992f16.chunk.css.map",
     "static/js/2.c9bfad0c.chunk.js.LICENSE.txt": "/triage-wheel-of-misfortune/static/js/2.c9bfad0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.38a167ce.js",
     "static/js/2.c9bfad0c.chunk.js",
-    "static/css/main.df8a443a.chunk.css",
+    "static/css/main.65992f16.chunk.css",
     "static/js/main.425b9248.chunk.js"
   ]
 }
